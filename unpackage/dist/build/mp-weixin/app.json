@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/done/done"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "简单",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#c0c0c0",
+    "selectedColor": "#000000",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "todos",
+        "iconPath": "static/tasks.png",
+        "selectedIconPath": "static/tasks.png"
+      },
+      {
+        "pagePath": "pages/done/done",
+        "text": "dones",
+        "iconPath": "static/check.png",
+        "selectedIconPath": "static/check.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

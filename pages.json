@@ -1,0 +1,45 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+			}
+		},
+		{
+            "path" : "pages/done/done",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "简单",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#c0c0c0",
+		"selectedColor": "#000000",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "todos",
+				"iconPath": "static/tasks.png",
+				"selectedIconPath": "static/tasks.png"
+				
+			},
+			{
+				"pagePath": "pages/done/done",
+				"text": "dones",
+				"iconPath": "static/check.png",
+				"selectedIconPath": "static/check.png"
+			}
+		]
+	}
+}

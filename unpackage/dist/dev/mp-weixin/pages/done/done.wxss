@@ -1,0 +1,32 @@
+
+.doneList {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		justify-content: flex-end;
+}
+.doneItem {
+		display: flex;
+		flex-direction: row;
+		margin-left: 20px;
+		margin-bottom: 3%;
+		justify-content: space-around;
+		animation-name: slideIn;
+		animation-duration: 0.7s;
+}
+.doneItem view {
+		border-radius: 30%;
+		width: 25px;
+		border: 1px solid;
+}
+.doneItem input {
+		border-bottom: 1px solid;
+}
+@keyframes slideIn {
+from {
+			transform: translateX(100%);
+}
+to {
+			transform: translateX(0%);
+}
+}
